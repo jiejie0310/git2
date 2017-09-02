@@ -53,4 +53,68 @@ header {
         color: #607df6;
         border-bottom: 2px solid #2f56f3; }
 
+.main {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+.bottom {
+  width: 92%;
+  height: 2.7rem;
+  background: #fff;
+  margin: 0.2rem auto;
+  border-radius: 0.1rem;
+  border: 1px solid #ccc; }
+  .bottom ul {
+    width: 100%;
+    height: 1.3rem;
+    background: #fd6060;
+    border-radius: 0.1rem 0.1rem 0 0; }
+    .bottom ul li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 0.3rem; }
+      .bottom ul li span {
+        font-size: 0.5rem;
+        color: #fff; }
+        .bottom ul li span img {
+          width: 0.4rem;
+          height: 0.4rem;
+          position: relative;
+          top: -0.3rem; }
+        .bottom ul li span em {
+          font-size: 1rem;
+          color: #fff;
+          padding-left: 0.2rem; }
+        .bottom ul li span:nth-child(2) {
+          position: relative;
+          top: 0.2rem; }
+  .bottom p {
+    text-indent: 0.6rem;
+    font-size: 0.2rem;
+    margin-top: 0.2rem; }
+    .bottom p:nth-child(2) {
+      color: #00923d;
+      font-weight: bold; }
+      .bottom p:nth-child(2) em {
+        display: inline-block;
+        width: 0.25rem;
+        height: 0.2rem;
+        background-image: url("../img/b_03.png");
+        background-size: 100% 100%;
+        position: relative;
+        top: 0.05rem; }
+    .bottom p:nth-child(3) {
+      color: #ccc;
+      font-weight: bold; }
+      .bottom p:nth-child(3) em {
+        display: inline-block;
+        width: 0.25rem;
+        height: 0.2rem;
+        background-image: url("../img/b1_03.png");
+        background-size: 100% 100%;
+        position: relative;
+        top: 0.05rem; }
+
 /*# sourceMappingURL=style.css.map */
